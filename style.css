@@ -1,0 +1,47 @@
+.form_field{
+    font-size: 20px;
+    border-radius: 8px;
+    }
+    #quickadd:hover,#add:hover,#cancel:hover{
+        
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #quickadd{ border-radius: 6px;
+        background-color: #b2f441;
+        font-size: 18px;
+        
+    }
+    #add{
+        border-radius: 6px;
+        background-color:#42d1f4;
+        font-size: 16px;
+        position: relative;
+        top:9px;
+    }
+   #cancel{ 
+       background-color: #fc1105;
+       font-size: 16px;
+       border-radius: 6px;
+       position: relative;
+       top:9px;
+   }
+   body{
+       background-color:#ffffd5;
+   }
+   label{
+       
+      font-size: 23px;
+      font-family: 'Sniglet', cursive;
+
+   }
+    .title{
+       background-color: aqua;
+         position: relative;
+         left:0px;
+         text-align: center;
+        font-family: 'Sniglet', cursive;
+   }
+   .container{
+    display: inline-block;
+    width:300px;
+   }
